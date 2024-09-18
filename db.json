@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "id": "54974b54-270c-48d1-b0c8-c82134dde01c",
+      "text": "Пресс качат",
+      "completed": false,
+      "createdAt": "2024-09-03T13:12:59.114Z"
+    },
+    {
+      "id": "1ce81478-cda7-4dc4-addd-4fd2fc2896be",
+      "text": "Питон учит",
+      "completed": false,
+      "createdAt": "2024-09-03T13:13:02.591Z"
+    }
+  ]
+}

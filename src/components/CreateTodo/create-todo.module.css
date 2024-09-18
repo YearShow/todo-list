@@ -1,0 +1,13 @@
+.container {
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.container input {
+    padding: 5px;
+}
+
+.container button:not(:disabled) {
+    cursor: pointer;
+}

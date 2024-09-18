@@ -1,0 +1,16 @@
+.controls {
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.controls input,
+.controls select {
+    padding: 5px;
+}
+
+.filter {
+    padding: 5px;
+    display: flex;
+    gap: 2px;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "rq",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "concurrently \"npm run dev\" \"npm run server\"",
+    "dev": "vite --port 3000",
+    "build": "tsc && vite build",
+    "server": "json-server --watch db.json --port 3004",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "mobx": "^6.13.1",
+    "mobx-react-lite": "^4.0.7",
+    "react": "^18.2.0",
+    "react-confetti-explosion": "^2.1.2",
+    "react-dom": "^18.2.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "concurrently": "^7.6.0",
+    "json-server": "^0.17.1",
+    "prettier": "^3.3.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
